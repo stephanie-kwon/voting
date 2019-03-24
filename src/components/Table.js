@@ -2,13 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './Style.css'
 
-const buttonProps = {
-    onClick() { alert('u clicked!!'); }
-}
-ReactDOM.render(<buttonProps/>, document.getElementById('vote'))
-
-
-
 
 const Table = () => {
     return (
@@ -35,7 +28,7 @@ const Table = () => {
                 </tr>
             </tbody>
              </table>
-        </div>
+//         </div>
     )
 }
 
